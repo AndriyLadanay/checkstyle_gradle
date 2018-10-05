@@ -4,9 +4,10 @@
 
 1. Add Checkstyle plugin in gradle.build by adding following command:                    
      *apply plugin: 'checkstyle'*     
+   or add in block *plugins* next line: *id 'checkstyle'*  
    
-2. Create file **checkstyle.xml** in the config/checkstyle folder of your project
-3. Add next dtd to **checkstyle.xml**                                     
+2. Create file **checkstyle.xml** in the config/checkstyle folder of your project (if it doesn't exist)
+3. Add next dtd to **checkstyle.xml**                                      
        !DOCTYPE module PUBLIC
         "-//Checkstyle//DTD Checkstyle Configuration 1.3//EN"
         "https://checkstyle.org/dtds/configuration_1_3.dtd" 
