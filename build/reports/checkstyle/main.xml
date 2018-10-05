@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.19">
+<file name="/Users/aladanai/intern/2/aladanai.gradle_checkrules/src/main/java/violationsSampleClasses/ViolationSamples.java">
+<error line="7" column="17" severity="error" message="Name of method &apos;lon&apos; must not be shorter than 4 characters" source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="11" severity="error" message="Line is longer than 80 characters (found 96)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+</checkstyle>
